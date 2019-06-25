@@ -1,51 +1,152 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
     <meta charset="UTF-8">
     <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic&display=swap" rel="stylesheet">
     <title>Document</title>
     <style>
-        h1{
+        p {
+            font-size: large;
+        }
+
+        h1 {
             text-align: center;
         }
-        body {
-            background-color: lightcoral;
-        }
-    nav{
-        border: 5px solid black;
-        float: left;
-        width: 440px;
-    }
-    article{
-        float: center;
-        
-    }
-    #myinfo{
-        float: center;
-    }
-    .myinfo1{
 
-    }
+        body {
+            background-image: url(KakaoTalk_20190417_103906594.jpg);
+            background-size: cover;
+
+        }
+
+        nav {
+            border: 5px dotted black;
+            width: 440px;
+        }
+
+        .myinfo {
+            float: center;
+            margin-right: 100px;
+            border: 5px dotted black;
+            font-size: 60px;
+
+        }
+
+        .myinfo-wrap {
+            overflow: hidden;
+            margin-top: 100vh;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        .mind {
+            border: 5px dotted black;
+            margin-top: 750px;
+        }
+
+        a {
+            color: black;
+            font-size: 20px;
+            font-weight: bold;
+        }
+
+        .myinfo1 {
+            margin: 600px;
+        }
+
+        .club-wrap {
+            border: 5px dotted black;
+            margin-top: 900px
+        }
+
+        #cluba {
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center
+        }
+
+        #lie {
+            float: right;
+        }
+
+        .bucket {
+            border: 5px dotted black;
+            margin-top: 600px;
+        }
+
+        #apple>p:hover {}
+
+        #gaebal {}
     </style>
 </head>
+
 <body>
     <h1>Introduce MY Self</h1>
     <nav>
         <ul style="overflow: hidden">
             <img src="neckkick.jpg" alt="" style="float: left;">
-            <li><a href="myinfo">나의 정보</a></li>
-            <li><a href="club">동아리</a></li>
-            <li><a href="mind">나의 가치관</a></li>
-            <li><a href="bucket">버킷 리스트</a></li>
+            <li><a href="#myinfo">나의 정보</a></li>
+            <li><a href="#club">동아리</a></li>
+            <li><a href="#mind">나의 가치관</a></li>
+            <li><a href="#bucket">버킷 리스트</a></li>
         </ul>
     </nav>
-    <article class="myinfo1">
-        <div id="#myinfo">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis accusantium molestiae ipsum, facere hic numquam voluptatibus, distinctio fugiat error soluta, magnam minima architecto repellat! Quam maiores aliquid blanditiis possimus ipsam.
+    <article class="myinfo-wrap">
+        <div class="myinfo">
+            <div id="myinfo">
+                <a name="myinfo">
+                    <p>이름: 이찬희</p>
+                    <img src="61446876_747196982349137_8280515939586277376_n.jpg"><br>
+                    <p>나이 : 17세</p>
+                    <p>사는 곳 : 강북구</p>
+                    <p>가족 구성원 : 엄마, 아빠 , 동생</p>
+            </div>
+        </div>
+        </a>
+
+    </article>
+    <article class="club-wrap">
+        <div class="club">
+            <a name="club" id="cluba">
+                <span id="apple"><img src="17192236_1232764993426026_8928674252929764625_o.jpg" width="550px"
+                        height="550px">
+                    <p id="gaebal">애플파이 10기 개발자 이다. </p>
+                </span>
+            </a>
 
         </div>
 
     </article>
-    
+    <article class="mind">
+        <span class="mind1">
+            <a name="mind">
+                <img src="clock.jpg">
+                <img src="lie.jpg" height="400" id="lie">
+            </a>
+            '</span>
+    </article>
+    <article class="bucket">
+        <div id="bucket">
+            <a name="bucket">
+                <ol>
+                    <li>졸업 전 까지 외주 받아보기</li>
+                    <li>다른 나라 여행 해보기</li>
+                    <li>일찍 일어나기</li>
+                    <li>항상 웃으면서 얘기하기</li>
+                    <li>서울에 있는 맛집 다 가보기</li>
+                    <li>방학때 애들과 국내 여행 가기</li>
+
+                </ol>
+            </a>
+        </div>
+    </article>
+
+
+
 </body>
+
 </html>
