@@ -15,20 +15,22 @@
         }
 
         body {
-            background-image: url(KakaoTalk_20190417_103906594.jpg);
+            background-color: black;
             background-size: cover;
+            color: white;
 
         }
 
         nav {
-            border: 5px dotted black;
+            border: 5px dotted white;
             width: 440px;
+
         }
 
         .myinfo {
             float: center;
             margin-right: 100px;
-            border: 5px dotted black;
+            border: 5px dotted white;
             font-size: 60px;
 
         }
@@ -43,12 +45,12 @@
         }
 
         .mind {
-            border: 5px dotted black;
+            border: 5px dotted white;
             margin-top: 750px;
         }
 
         a {
-            color: black;
+            color: white;
             font-size: 20px;
             font-weight: bold;
         }
@@ -58,7 +60,7 @@
         }
 
         .club-wrap {
-            border: 5px dotted black;
+            border: 5px dotted white;
             margin-top: 900px
         }
 
@@ -72,15 +74,26 @@
         #lie {
             float: right;
         }
+        #min3{
+            text-align: center;
+        }
 
         .bucket {
-            border: 5px dotted black;
+            border: 5px dotted white;
             margin-top: 600px;
         }
 
-        #apple>p:hover {}
+        .learn {
+            border: 5px dotted white;
+            margin-top: 600px;
+            display: flex;
+            justify-content: space-between;
+        }
 
-        #gaebal {}
+        footer {
+            text-align: center;
+        }
+        
     </style>
 </head>
 
@@ -93,6 +106,7 @@
             <li><a href="#club">동아리</a></li>
             <li><a href="#mind">나의 가치관</a></li>
             <li><a href="#bucket">버킷 리스트</a></li>
+            <li><a href="#learn">배우고 싶은 언어</a></li>
         </ul>
     </nav>
     <article class="myinfo-wrap">
@@ -102,7 +116,22 @@
                     <p>이름: 이찬희</p>
                     <img src="61446876_747196982349137_8280515939586277376_n.jpg"><br>
                     <p>나이 : 17세</p>
-                    <p>사는 곳 : 강북구</p>
+                    <p>출생지: 안양</p>
+                    <p>사는 곳 :</p><br>
+                    <img src="myhome.png" width="330px">
+                    <p>싫어하는 것 :
+                        <img src="mo.jpg" width="300px" width="300px">
+                        <img src="dap.PNG" width="300px" height="300px">
+                        <img src="tj.PNG" width="300px" height="300px">
+                        <p>좋아하는 것 :
+                            <img src="chi.PNG" width="300px" height="300px">
+                            <img src="lis.PNG" width="300px" height="300px">
+                            <img src="trip.PNG" width="300px" height="300px">
+                        </p>
+                    <P>키: 180CM</P>
+                    <p>초등학교: <img src="eleschool.jpg" width="400px" height="300px" id="ele"> 중학교: <img src="my.PNG"
+                            width="350px" height="350px" id="middle">
+                        고등학교:<img src="sunrin.png" width="350px" height="350px" id="high"></p>
                     <p>가족 구성원 : 엄마, 아빠 , 동생</p>
             </div>
         </div>
@@ -112,9 +141,9 @@
     <article class="club-wrap">
         <div class="club">
             <a name="club" id="cluba">
-                <span id="apple"><img src="17192236_1232764993426026_8928674252929764625_o.jpg" width="550px"
-                        height="550px">
-                    <p id="gaebal">애플파이 10기 개발자 이다. </p>
+                <span id="apple"><img src="17192236_1232764993426026_8928674252929764625_o.jpg" width="550px" height="550px">
+                    <p>애플파이 10기 개발자 이다. </p>
+                    <p>애플 파이에서 하는건 없지만 열심히 노력 하고 있다.</p>
                 </span>
             </a>
 
@@ -124,6 +153,7 @@
     <article class="mind">
         <span class="mind1">
             <a name="mind">
+               <h3 id="min3">&lt;나의 가치관&gt;</h3> <br>
                 <img src="clock.jpg">
                 <img src="lie.jpg" height="400" id="lie">
             </a>
@@ -133,20 +163,31 @@
         <div id="bucket">
             <a name="bucket">
                 <ol>
+                    &lt;버킷리스트&gt;
                     <li>졸업 전 까지 외주 받아보기</li>
                     <li>다른 나라 여행 해보기</li>
                     <li>일찍 일어나기</li>
                     <li>항상 웃으면서 얘기하기</li>
                     <li>서울에 있는 맛집 다 가보기</li>
                     <li>방학때 애들과 국내 여행 가기</li>
-
                 </ol>
             </a>
         </div>
     </article>
+    <article class="learn">
+            <a name="learn">
+        <span>
+                &lt;더 배우고 싶은 언어&gt; <br>
+                <img src="html1.png" width="300px" height="300px">
+                <img src="css.png" width="300px" height="300px">
+                <img src="c++.PNG" width="300px" height="300px">
+                <img src="noname.jpg" width="300px" height="300px">
+            </a>
+        </span>
 
-
-
+    </article>
+    <footer>
+        <strong>sunrin</strong>
+    </footer>
 </body>
-
 </html>
